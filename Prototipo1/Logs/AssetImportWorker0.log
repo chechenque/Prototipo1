@@ -1125,3 +1125,22 @@ AssetImportParameters requested are different than current active one (requested
 [usbmuxd] Attached: 1029 00008030-001620E936D8402E
 [usbmuxd] Detached: 1029 00008030-001620E936D8402E
 [usbmuxd] Attached: 1137 00008030-001620E936D8402E
+[usbmuxd] Detached: 1137 00008030-001620E936D8402E
+========================================================================
+Received Import Request.
+  Time since last request: 45985.428118 seconds.
+  path: Assets/Sound Effects
+  artifactKey: Guid(d332194fd07454ba49dd3053b82a3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects using Guid(d332194fd07454ba49dd3053b82a3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bfe9940b1ec955db915d54cfe46412') in 0.199389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.701174 seconds.
+  path: Assets/Sound Effects/Zombie
+  artifactKey: Guid(1c999e1dcad414938b9311ffef56dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Zombie using Guid(1c999e1dcad414938b9311ffef56dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c262e9fc11fbb9211fd96ec44d6c07') in 0.000976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.961723 seconds.
+  path: Assets/Sound Effects/Zombie/Zombie3.wav
+  artifactKey: Guid(82746ff0de74f41759e199c99f5f7d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Zombie/Zombie3.wav using Guid(82746ff0de74f41759e199c99f5f7d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0009f144a8ae638a7044bf9ea8c2419') in 1.061612 seconds 

@@ -1174,3 +1174,33 @@ Received Import Request.
   path: Assets/Sound Effects/Zombie/Zombie1.wav
   artifactKey: Guid(a41b05f0af21148c49bcdd8eae47706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sound Effects/Zombie/Zombie1.wav using Guid(a41b05f0af21148c49bcdd8eae47706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed03b191b076a56f2f0f0f3cc7ad90b') in 0.006925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1796.657882 seconds.
+  path: Assets/Sound Effects/Ambiente
+  artifactKey: Guid(8c2bface11e314d7b9d5592e82150ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Ambiente using Guid(8c2bface11e314d7b9d5592e82150ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6091f235a3f9ccf7ea028f690f20a23a') in 0.005346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.535619 seconds.
+  path: Assets/Sound Effects/Ambiente/BackgroundSound3.wav
+  artifactKey: Guid(308e4f96a198646c3a165d43d5646dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Ambiente/BackgroundSound3.wav using Guid(308e4f96a198646c3a165d43d5646dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ae49a9db7ed31f8d80fa2941903b5f') in 0.065065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.986106 seconds.
+  path: Assets/Sound Effects/Ambiente/BackgroundSound.flac
+  artifactKey: Guid(8d1eb983a68084123a92c42c593ca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Ambiente/BackgroundSound.flac using Guid(8d1eb983a68084123a92c42c593ca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb5d9055bc10288b5a207a2459650bc') in 0.170612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.548718 seconds.
+  path: Assets/Sound Effects/Ambiente/BackgroundSound2.mp3
+  artifactKey: Guid(996ef297377c641c2b9b56ab8e9f11a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Ambiente/BackgroundSound2.mp3 using Guid(996ef297377c641c2b9b56ab8e9f11a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0bdff6c5206ee38899096036a4cf8d') in 0.573874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.428476 seconds.
+  path: Assets/Sound Effects/Ambiente/BackgroundSound1.flac
+  artifactKey: Guid(8d1eb983a68084123a92c42c593ca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Ambiente/BackgroundSound1.flac using Guid(8d1eb983a68084123a92c42c593ca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc073b01e59e67eb7eab72df5b170e61') in 0.005386 seconds 

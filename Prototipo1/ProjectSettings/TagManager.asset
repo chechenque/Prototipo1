@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - nave
+  - powerup
+  - zombie
+  - obstaculo
   layers:
   - Default
   - TransparentFX

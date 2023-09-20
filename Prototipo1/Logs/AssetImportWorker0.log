@@ -1210,3 +1210,39 @@ Received Import Request.
   path: Assets/Course Library/Ground/Track.prefab
   artifactKey: Guid(3a148ace166d243bb90b6981d675b0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Course Library/Ground/Track.prefab using Guid(3a148ace166d243bb90b6981d675b0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9bd027b70e8781a28d69d10f38d94f') in 0.106161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.656044 seconds.
+  path: Assets/Sound Effects/Carro
+  artifactKey: Guid(bd19b73917c7c451c82413d65a48e801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Carro using Guid(bd19b73917c7c451c82413d65a48e801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1473976b0cb0bcc3ee621e31efd85eba') in 0.002603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.232692 seconds.
+  path: Assets/Sound Effects/Choques
+  artifactKey: Guid(089d578b82ad14e8a9f69ce0c55b9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Choques using Guid(089d578b82ad14e8a9f69ce0c55b9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c50c3b5b682f84382bf8334246df7d') in 0.001565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.033650 seconds.
+  path: Assets/Sound Effects/Carro/Motor.wav
+  artifactKey: Guid(7183036a6267242ff881b9c2c8f9ebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Carro/Motor.wav using Guid(7183036a6267242ff881b9c2c8f9ebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f7b3f0a9499de9a9b19b8a01733b7b') in 0.042497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.799740 seconds.
+  path: Assets/Sound Effects/Choques/Choque1.wav
+  artifactKey: Guid(1495e5f92fc04434bb63cd89f8a04800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Choques/Choque1.wav using Guid(1495e5f92fc04434bb63cd89f8a04800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9743f98b94cc1600f108e327076b3e') in 0.039625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.231202 seconds.
+  path: Assets/Sound Effects/Choques/Choque2.wav
+  artifactKey: Guid(cf03a3363bce546d6ab018e130279cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Choques/Choque2.wav using Guid(cf03a3363bce546d6ab018e130279cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15da1b961d4e39d7a651c31be7ceac') in 0.005647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.580925 seconds.
+  path: Assets/Sound Effects/Choques/Choque3.wav
+  artifactKey: Guid(063dc1b9d30454e08b47f8cda72907ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Effects/Choques/Choque3.wav using Guid(063dc1b9d30454e08b47f8cda72907ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c19240e5f28e9ec310bcaf3bd85963') in 0.006403 seconds 

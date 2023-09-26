@@ -67,7 +67,7 @@ public class Nave : MonoBehaviour{
     /// </summary>
     /// <param name="collision">El obstaculo con el que hace colision</param>
     private void DetectaObstaculo(Collision collision) {
-
+        
     }
 
     /// <summary>

@@ -355,7 +355,7 @@
 "Assets/Scripts/EliminaTrack.cs"
 "Assets/Scripts/MueveTrack.cs"
 "Assets/Scripts/Nave.cs"
-"Assets/Scripts/SpawnObjectos.cs"
+"Assets/Scripts/SpawnObjetos.cs"
 "Assets/Scripts/SpawnTrack.cs"
 "Assets/Scripts/Zombie.cs"
 -langversion:9.0

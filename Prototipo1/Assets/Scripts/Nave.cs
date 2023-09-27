@@ -31,6 +31,7 @@ public class Nave : MonoBehaviour{
         hm = Input.GetAxis("Horizontal");
         this.transform.Translate(hm * Time.deltaTime * speed, 0, 0);
         ++puntuacion;
+        Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);
     }
 
     private void OnCollisionEnter(Collision collision) {

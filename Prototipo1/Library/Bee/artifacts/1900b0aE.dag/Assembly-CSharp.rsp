@@ -357,6 +357,7 @@
 "Assets/Scripts/Nave.cs"
 "Assets/Scripts/SpawnObjetos.cs"
 "Assets/Scripts/SpawnTrack.cs"
+"Assets/Scripts/SpawnZombie.cs"
 "Assets/Scripts/Zombie.cs"
 -langversion:9.0
 

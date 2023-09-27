@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ce793c951750d3d4c969a2f48c3a9f2c, type: 3}
       propertyPath: m_Name
       value: Calle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce793c951750d3d4c969a2f48c3a9f2c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce793c951750d3d4c969a2f48c3a9f2c, type: 3}
@@ -533,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TomaDeAgua
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c096da0c481d664cb2df74d01b68345, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c096da0c481d664cb2df74d01b68345, type: 3}
 --- !u!1 &534669902
@@ -674,6 +682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TomaDeAgua 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f40ba1d763b932149ad7c619a55243a9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f40ba1d763b932149ad7c619a55243a9, type: 3}
 --- !u!1001 &1173507252
@@ -685,7 +697,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e4200f37c01208a42a22baf505e3f22e, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e4200f37c01208a42a22baf505e3f22e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -731,6 +743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrucePeatonal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4200f37c01208a42a22baf505e3f22e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4200f37c01208a42a22baf505e3f22e, type: 3}
 --- !u!4 &1312232381 stripped
@@ -769,7 +785,7 @@ Transform:
   - {fileID: 1312232381}
   - {fileID: 2093379048}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1414448816
 PrefabInstance:
@@ -780,7 +796,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 530cdd1a61aff4140971490f85a5fdf2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 530cdd1a61aff4140971490f85a5fdf2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -825,6 +841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 530cdd1a61aff4140971490f85a5fdf2, type: 3}
       propertyPath: m_Name
       value: BolsasDeBasura
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 530cdd1a61aff4140971490f85a5fdf2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 530cdd1a61aff4140971490f85a5fdf2, type: 3}
@@ -956,7 +976,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1865065671
 AudioSource:

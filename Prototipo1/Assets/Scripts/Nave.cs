@@ -139,6 +139,9 @@ public class Nave : MonoBehaviour{
         this.combo += c;
     }
 
+    /// <summary>
+    /// Metodo que nos muestra los logs completos de nuestro Scrip
+    /// </summary>
     private void LogCompleto() {
         Debug.Log("Kills : " + kill + "\nSalud : " + salud);
         Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);      

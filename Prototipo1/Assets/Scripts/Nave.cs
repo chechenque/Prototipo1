@@ -18,8 +18,10 @@ public class Nave : MonoBehaviour{
     public int salud;
     public int combo;
 
+    public bool LOG = false;
+
     private void Start(){
-        Debug.Log("El script inicio");
+        if(LOG) Debug.Log("El script inicio");
         audioS = this.GetComponent<AudioSource>();
         combo = 0;
         puntuacion = 0;
@@ -31,11 +33,11 @@ public class Nave : MonoBehaviour{
         hm = Input.GetAxis("Horizontal");
         this.transform.Translate(hm * Time.deltaTime * speed, 0, 0);
         ++puntuacion;
-        Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);
+        if (LOG) Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);
     }
 
     private void OnCollisionEnter(Collision collision) {
-        Debug.Log("TAG NAVE: " +collision.gameObject.tag);
+        if (LOG) Debug.Log("TAG NAVE: " +collision.gameObject.tag);
 
         switch (collision.gameObject.tag) {
             case "zombie":

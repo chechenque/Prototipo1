@@ -10,7 +10,7 @@ public class Zombie : MonoBehaviour{
     int c;
 
     private void Start() {
-        Debug.Log("ZOMBIE START");
+        if(LOG) Debug.Log("ZOMBIE START");
     }
 
     private void Update() {
@@ -19,9 +19,9 @@ public class Zombie : MonoBehaviour{
 
     private void OnCollisionEnter(Collision collision) {
         if(collision.gameObject.tag == "nave") {
-            c = Random.Range(0, 4);
+            c = Random.Range(0, 6);
             audioS.PlayOneShot(audios[c]);
-            Destroy(this.gameObject, 3);
+            Destroy(this.gameObject, 2);
         }
     }
 }

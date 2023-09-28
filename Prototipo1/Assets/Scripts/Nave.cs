@@ -33,7 +33,7 @@ public class Nave : MonoBehaviour{
         hm = Input.GetAxis("Horizontal");
         this.transform.Translate(hm * Time.deltaTime * speed, 0, 0);
         ++puntuacion;
-        if (LOG) Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);
+        if (LOG) LogCompleto();
     }
 
     private void OnCollisionEnter(Collision collision) {
@@ -70,7 +70,15 @@ public class Nave : MonoBehaviour{
     /// </summary>
     /// <param name="collision">El obstaculo con el que hace colision</param>
     private void DetectaObstaculo(Collision collision) {
-        
+        if (LOG) Debug.Log("Obstaculo detectado");
+        int c = Random.Range(1, 25);
+        if(salud - c < 0) {
+            salud = 0;
+        } else {
+            salud -= c;
+        }
+
+        if (LOG) Debug.Log("Vida perdida: " + c);
     }
 
     /// <summary>
@@ -84,6 +92,55 @@ public class Nave : MonoBehaviour{
     /// </summary>
     /// <param name="collision">El PowerUp con el que hace colision</param>
     private void DetectaPowerUp(Collision collision) {
+        switch (Random.Range(0, 3)) {
+            case 0:
+                BoostPuntos();
+                break;
+            case 1:
+                RegeneraVida();
+                break;
+            case 2:
+                AumentaCombo();
+                break;
+        }
+    }
 
+    /// <summary>
+    /// Metodo que genera un boostDePuntos
+    /// El rango va desde 0 puntos hasta 10k
+    /// </summary>
+    private void BoostPuntos() {
+        int c = Random.Range(0, 10000);
+        if (LOG) Debug.Log("Puntos obtenido: " + c);
+        this.puntuacion += c;
+    }
+
+    /// <summary>
+    /// MEtodo que regenera vida del persona
+    /// el Maximo es 100.
+    /// Si supera el maximo se asigna 100
+    /// </summary>
+    private void RegeneraVida() {
+        int c = Random.Range(0, 100);
+        if (LOG) Debug.Log("Vida regenerada: " + c);
+        if (c + salud > 100) {
+            salud = 100;
+        } else {
+            salud += c;
+        }
+    }
+
+    /// <summary>
+    /// Metodo que aumenta el combo que llevamos
+    /// </summary>
+    private void AumentaCombo() {
+        int c = Random.Range(0, 25);
+        if (LOG) Debug.Log("Combo aumentado: " + c);
+        this.combo += c;
+    }
+
+    private void LogCompleto() {
+        Debug.Log("Kills : " + kill + "\nSalud : " + salud);
+        Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);      
     }
 }

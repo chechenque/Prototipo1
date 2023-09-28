@@ -24,7 +24,7 @@ public class SpawnObjetos : MonoBehaviour{
         }
 
         s = Random.Range(0, 7);
-        c = Random.Range(0, 2);
+        c = Random.Range(0, 1);
         Instantiate(powerUp[c], spawns[s].transform.position, spawns[s].transform.rotation);
     }
 }

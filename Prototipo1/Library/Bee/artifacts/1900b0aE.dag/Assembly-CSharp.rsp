@@ -356,6 +356,7 @@
 "Assets/Scripts/MueveTrack.cs"
 "Assets/Scripts/Nave.cs"
 "Assets/Scripts/Obstaculo.cs"
+"Assets/Scripts/RemueveObjeto.cs"
 "Assets/Scripts/SpawnObjetos.cs"
 "Assets/Scripts/SpawnTrack.cs"
 "Assets/Scripts/SpawnZombie.cs"

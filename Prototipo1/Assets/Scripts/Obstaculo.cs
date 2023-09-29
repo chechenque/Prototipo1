@@ -25,7 +25,6 @@ public class Obstaculo : MonoBehaviour{
         }
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if (LOG) Debug.Log("TAG Limite: " + other.gameObject.tag);
-    }
+    
+
 }

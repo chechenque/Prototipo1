@@ -18,7 +18,7 @@ public class SpawnObjetos : MonoBehaviour{
 
         for(int i = 3; i < 6; ++i) {
             c = Random.Range(0, 3);
-            Instantiate(obstaculos[c], spawns[i%3].transform.position, spawns[i%3].transform.rotation);
+            Instantiate(obstaculos[c], spawns[i].transform.position, spawns[i].transform.rotation);
         }
 
         c = Random.Range(0, 1);

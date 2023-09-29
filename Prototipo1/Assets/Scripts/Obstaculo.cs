@@ -18,9 +18,14 @@ public class Obstaculo : MonoBehaviour{
     }
 
     private void OnCollisionEnter(Collision collision) {
+        if (LOG) Debug.Log("TAG CollisionEnter: " + collision.gameObject.tag);
         if (collision.gameObject.tag == "nave") {
-            c = Random.Range(0, 4);
+            c = Random.Range(0, 3);
             audioS.PlayOneShot(audios[c]);
         }
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        if (LOG) Debug.Log("TAG Limite: " + other.gameObject.tag);
     }
 }

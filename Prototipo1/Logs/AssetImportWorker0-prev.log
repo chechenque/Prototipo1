@@ -1,23 +1,36 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.8 (Build 21G725)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 16118 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-E:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Documentos/EndlessRunner/Prototipo1/Prototipo1
+/Users/luisangel/Unity/Prototipo1/Prototipo1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52831
+<<<<<<< Updated upstream
+54083
 Successfully changed project path to: E:/Documentos/EndlessRunner/Prototipo1/Prototipo1
 E:/Documentos/EndlessRunner/Prototipo1/Prototipo1
+=======
+64216
+Successfully changed project path to: /Users/luisangel/Unity/Prototipo1/Prototipo1
+/Users/luisangel/Unity/Prototipo1/Prototipo1
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,7 +60,8 @@ E:/Documentos/EndlessRunner/Prototipo1/Prototipo1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 50.75 ms, found 3 plugins.
+<<<<<<< Updated upstream
+Refreshing native plugins compatible for Editor in 49.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path E:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +77,89 @@ Initialize mono
 Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002014 seconds.
+Registered in 0.002001 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.368 seconds
+- Completed reload, in  0.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (368ms)
+	ReloadAssembly (375ms)
 		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (249ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (252ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (57ms)
+			SetupTypeCache (58ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (151ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004544 seconds.
+Registered in 0.004492 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Documentos\EndlessRunner\Prototipo1\Prototipo1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Documentos\EndlessRunner\Prototipo1\Prototipo1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
+- Completed reload, in  0.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (877ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (739ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (474ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (383ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (157ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (111.5 KB). Loaded Objects now: 3508.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (111.4 KB). Loaded Objects now: 3509.
 Memory consumption went from 108.0 MB to 107.9 MB.
-Total: 2.182400 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.881400 ms  DeleteObjects: 0.071900 ms)
+Total: 2.179300 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.059300 ms MarkObjects: 1.838500 ms  DeleteObjects: 0.074400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,79 +174,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 183626.376536 seconds.
-  path: Assets/Modelos3D/Calle.fbx
-  artifactKey: Guid(ce793c951750d3d4c969a2f48c3a9f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Calle.fbx using Guid(ce793c951750d3d4c969a2f48c3a9f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c534e4c4e70278287d204368c62d27') in 0.230320 seconds 
+  Time since last request: 195731.300429 seconds.
+  path: Assets/Modelos3D/Casa1.fbx
+  artifactKey: Guid(0ef8fe5a47bd30f4ca663dbcb49a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Casa1.fbx using Guid(0ef8fe5a47bd30f4ca663dbcb49a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e48e4f55c131ebe7fcab9e3678f37e') in 0.703231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modelos3D/Casa4.fbx
+  artifactKey: Guid(1c3c78250ea424c4f8d14ba139ef4014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Casa4.fbx using Guid(1c3c78250ea424c4f8d14ba139ef4014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeb57fd05d102c7a7dcef6f03544bda') in 0.025757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modelos3D/CieloNaranja.fbx
+  artifactKey: Guid(e6e645d9823a4d44b99098d572647300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/CieloNaranja.fbx using Guid(e6e645d9823a4d44b99098d572647300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594bcf2dba6b892c00aff12bb00224e3') in 0.015628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modelos3D/CrucePeatonal 1.fbx
+  artifactKey: Guid(f78b73bf60afec449937bab821947724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/CrucePeatonal 1.fbx using Guid(f78b73bf60afec449937bab821947724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f904d5a351e3f0ed0c5fe534570c902') in 0.021119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modelos3D/Stop.fbx
+  artifactKey: Guid(d00283118923cd145b9d1b516f7e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Stop.fbx using Guid(d00283118923cd145b9d1b516f7e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7675dd719bd861e7a8204b136d3e5725') in 0.019315 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Modelos3D/BolsasDeBasura.fbx
-  artifactKey: Guid(530cdd1a61aff4140971490f85a5fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/BolsasDeBasura.fbx using Guid(530cdd1a61aff4140971490f85a5fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe6cb9de1d4136c4bb5e3c2463171fe') in 0.014141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Modelos3D/CrucePeatonal.fbx
-  artifactKey: Guid(e4200f37c01208a42a22baf505e3f22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/CrucePeatonal.fbx using Guid(e4200f37c01208a42a22baf505e3f22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08f668e3c04bdf6e25d5622ebab121') in 0.017959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.957662 seconds.
-  path: Assets/Modelos3D/Calle 1.fbx
-  artifactKey: Guid(f30c8be35c6be9940931aa6a747cb024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Calle 1.fbx using Guid(f30c8be35c6be9940931aa6a747cb024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc35f6ed61a18b44b363d125ebec90') in 0.027438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Modelos3D/Cono.fbx
-  artifactKey: Guid(a07af1639c2a2a74fab4f63ce3c66ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Cono.fbx using Guid(a07af1639c2a2a74fab4f63ce3c66ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b81853433c1c83ac75122e4b25f2f74') in 0.021918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Modelos3D/ZombieRosa.fbx
-  artifactKey: Guid(a18103a6fb72367409a649f640af6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/ZombieRosa.fbx using Guid(a18103a6fb72367409a649f640af6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcf0e22adf148771aa53d3ac28dd722') in 0.023924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Modelos3D/CieloNaranja.fbx
-  artifactKey: Guid(e6e645d9823a4d44b99098d572647300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/CieloNaranja.fbx using Guid(e6e645d9823a4d44b99098d572647300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d0a6cd796bda00aeac6a0b00ff75b9') in 0.014775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Modelos3D/Stop.fbx
-  artifactKey: Guid(d00283118923cd145b9d1b516f7e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Stop.fbx using Guid(d00283118923cd145b9d1b516f7e2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0fc5a256b511f2ba3deecac786ca00') in 0.022149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
   path: Assets/Modelos3D/Estrella.fbx
   artifactKey: Guid(3f7705e6dc3a2d141a59c9d6246959d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Estrella.fbx using Guid(3f7705e6dc3a2d141a59c9d6246959d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c036f9e01c91f6f3a3bf7c6a9994c84a') in 0.014473 seconds 
+Start importing Assets/Modelos3D/Estrella.fbx using Guid(3f7705e6dc3a2d141a59c9d6246959d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21b903355f7903f0aacb1928d5be3fe') in 0.013492 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000015 seconds.
   path: Assets/Modelos3D/ZombieAzul.fbx
   artifactKey: Guid(8ab53fe8fc8774d4aa848ba98bb8586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/ZombieAzul.fbx using Guid(8ab53fe8fc8774d4aa848ba98bb8586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5306101ac92e87b90464c9bb595ef188') in 0.022437 seconds 
+Start importing Assets/Modelos3D/ZombieAzul.fbx using Guid(8ab53fe8fc8774d4aa848ba98bb8586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a8748820a9ffcd0ba3e4b940b9618e') in 0.024096 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 0.000014 seconds.
   path: Assets/Modelos3D/ZombieNaranja.fbx
   artifactKey: Guid(fde12a28462b7ea4b9b27e70155a06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/ZombieNaranja.fbx using Guid(fde12a28462b7ea4b9b27e70155a06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af4e17646e18e02451fd0b572bfd1c1') in 0.020262 seconds 
+Start importing Assets/Modelos3D/ZombieNaranja.fbx using Guid(fde12a28462b7ea4b9b27e70155a06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f97ff8f0a0bc109679cbb72594b2a') in 0.022981 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Modelos3D/Casa2.fbx
-  artifactKey: Guid(da3529db098eed345b29b87a80f0db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Casa2.fbx using Guid(da3529db098eed345b29b87a80f0db64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3e94bb588f0458ad4125f9431a207f') in 0.019907 seconds 
+  Time since last request: 90.474525 seconds.
+  path: Assets/Modelos3D/Arbol1.fbx
+  artifactKey: Guid(d5440d6390445a742882bcfb38f7ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Arbol1.fbx using Guid(d5440d6390445a742882bcfb38f7ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a563ed70dd7229573013c9544b1e8c4a') in 0.017861 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.883421 seconds.
-  path: Assets/Modelos3D/Prototipo1.blend1
-  artifactKey: Guid(6687c3a863ba68543a2f820279a124d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Prototipo1.blend1 using Guid(6687c3a863ba68543a2f820279a124d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3029ab790faf55e32cbe9aee6448378') in 0.004543 seconds 
+  Time since last request: 14.968697 seconds.
+  path: Assets/Modelos3D/Arbol2.fbx
+  artifactKey: Guid(23920ebf7f916064e84f73a7504544bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Arbol2.fbx using Guid(23920ebf7f916064e84f73a7504544bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33d1b4c852168a4be3c2cea4fae276c') in 0.017886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.579254 seconds.
+  path: Assets/Modelos3D/Cono 1.fbx
+  artifactKey: Guid(b707bc90c8acfbd439c4325491146afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Cono 1.fbx using Guid(b707bc90c8acfbd439c4325491146afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e894124f3744333bd0fa325e3a8e781') in 0.022324 seconds 
+=======
+>>>>>>> Stashed changes

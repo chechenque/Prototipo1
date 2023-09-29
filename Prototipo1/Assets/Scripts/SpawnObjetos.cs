@@ -8,23 +8,20 @@ public class SpawnObjetos : MonoBehaviour{
     public GameObject[] powerUp = new GameObject[1];
     public GameObject[] obstaculos = new GameObject[3];
 
-    int s, c;
+    int c;
 
     private void Start() {
         for(int i = 0; i < 3; ++i) {
-            s = Random.Range(0, 7);
             c = Random.Range(0, 4);
-            Instantiate(cars[c], spawns[s].transform.position, spawns[s].transform.rotation);
+            Instantiate(cars[c], spawns[i].transform.position, spawns[i].transform.rotation);
         }
 
-        for(int i = 0; i < 3; ++i) {
-            s = Random.Range(0, 7);
+        for(int i = 3; i < 6; ++i) {
             c = Random.Range(0, 3);
-            Instantiate(obstaculos[c], spawns[s].transform.position, spawns[s].transform.rotation);
+            Instantiate(obstaculos[c], spawns[i%3].transform.position, spawns[i%3].transform.rotation);
         }
 
-        s = Random.Range(0, 7);
         c = Random.Range(0, 1);
-        Instantiate(powerUp[c], spawns[s].transform.position, spawns[s].transform.rotation);
+        Instantiate(powerUp[c], spawns[6].transform.position, spawns[6].transform.rotation);
     }
 }

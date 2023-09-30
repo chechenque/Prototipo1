@@ -7,6 +7,7 @@ public class SpawnObjetos : MonoBehaviour{
     public GameObject[] cars = new GameObject[4];
     public GameObject[] powerUp = new GameObject[1];
     public GameObject[] obstaculos = new GameObject[3];
+    public GameObject[] meteorito = new GameObject[3];
 
     int c;
 
@@ -23,5 +24,12 @@ public class SpawnObjetos : MonoBehaviour{
 
         c = Random.Range(0, 1);
         Instantiate(powerUp[c], spawns[6].transform.position, spawns[6].transform.rotation);
+        IniciaMeteorito();
+    }
+
+    private void IniciaMeteorito() {
+        for(int i = 0; i < 3; ++i) {
+            Instantiate(obstaculos[2], meteorito[i].transform.position, meteorito[i].transform.rotation);
+        }
     }
 }

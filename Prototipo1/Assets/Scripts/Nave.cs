@@ -13,7 +13,10 @@ public class Nave : MonoBehaviour{
     private float hm;
     public AudioClip audio;
     public AudioSource audioS;
-    public TMP_Text tmp;
+    public TMP_Text saludT;
+    /*public TMP_Text comboT;
+    public TMP_Text killT;
+    public TMP_Text scoreT;*/
 
     public int kill;
     public int puntuacion;
@@ -28,7 +31,7 @@ public class Nave : MonoBehaviour{
         combo = 0;
         puntuacion = 0;
         salud = 100;
-        tmp.text = salud.ToString();
+        saludT.text = salud.ToString();
     }
 
     private void Update() {
@@ -77,11 +80,11 @@ public class Nave : MonoBehaviour{
         int c = Random.Range(1, 25);
         if(salud - c < 0) {
             salud = 0;
-            tmp.text = salud.ToString();
+            saludT.text = salud.ToString();
             DestruyeCoche();
         } else {
             salud -= c;
-            tmp.text = salud.ToString();
+            saludT.text = salud.ToString();
         }
 
         if (LOG) Debug.Log("Vida perdida: " + c);
@@ -134,7 +137,7 @@ public class Nave : MonoBehaviour{
         } else {
             salud += c;
         }
-        tmp.text = salud.ToString();
+        saludT.text = salud.ToString();
     }
 
     /// <summary>

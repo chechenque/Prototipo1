@@ -5,6 +5,7 @@ using UnityEngine;
 public class MueveTrack : MonoBehaviour{
     public float speed;
     public int count;
+    //int val;
 
     private void Start() {
         Debug.Log("MUEVE TRACK INICIO");
@@ -14,10 +15,10 @@ public class MueveTrack : MonoBehaviour{
     private void Update() {
         this.transform.Translate(Time.deltaTime * 0.1f * speed, 0, 0);
         ++count;
-        /*if(count == 1000) {
+        if(count == 100000) {
             count = 0;
             Funcion();
-        }*/
+        }
     }
 
     /// <summary>

@@ -17,6 +17,7 @@ public class Nave : MonoBehaviour{
     public TMP_Text comboT;
     public TMP_Text killT;
     public TMP_Text scoreT;
+    public GameObject screen;
 
     public int kill;
     public int puntuacion;
@@ -167,7 +168,11 @@ public class Nave : MonoBehaviour{
         Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);      
     }
 
+    /// <summary>
+    /// Metodo que destruye el coche
+    /// </summary>
     private void DestruyeCoche() {
+        screen.SetActive(true);
         this.gameObject.SetActive(false);
     }
 }

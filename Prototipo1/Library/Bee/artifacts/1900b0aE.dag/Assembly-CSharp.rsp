@@ -357,6 +357,7 @@
 "Assets/Scripts/Nave.cs"
 "Assets/Scripts/Obstaculo.cs"
 "Assets/Scripts/PowerUp.cs"
+"Assets/Scripts/Reinicio.cs"
 "Assets/Scripts/RemueveObjeto.cs"
 "Assets/Scripts/SpawnObjetos.cs"
 "Assets/Scripts/SpawnTrack.cs"

@@ -770,7 +770,7 @@ MonoBehaviour:
   - {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
   - {fileID: 126218, guid: da59e5a3713884d4f9e9667c2befa1a4, type: 3}
   powerUp:
-  - {fileID: 919132149155446097, guid: 3f7705e6dc3a2d141a59c9d6246959d0, type: 3}
+  - {fileID: 2932032144442206677, guid: aa4c00e208b374698a38ca274463e74e, type: 3}
   obstaculos:
   - {fileID: 1884074337756752357, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
   - {fileID: 1990293589767515956, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}

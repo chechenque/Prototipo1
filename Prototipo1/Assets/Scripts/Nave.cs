@@ -14,9 +14,9 @@ public class Nave : MonoBehaviour{
     public AudioClip audio;
     public AudioSource audioS;
     public TMP_Text saludT;
-    /*public TMP_Text comboT;
+    public TMP_Text comboT;
     public TMP_Text killT;
-    public TMP_Text scoreT;*/
+    public TMP_Text scoreT;
 
     public int kill;
     public int puntuacion;
@@ -32,6 +32,8 @@ public class Nave : MonoBehaviour{
         puntuacion = 0;
         salud = 100;
         saludT.text = salud.ToString();
+        comboT.text = combo.ToString();
+        scoreT.text = puntuacion.ToString();
     }
 
     private void Update() {
@@ -39,6 +41,7 @@ public class Nave : MonoBehaviour{
         hm = Input.GetAxis("Horizontal");
         this.transform.Translate(hm * Time.deltaTime * speed, 0, 0);
         ++puntuacion;
+        scoreT.text = puntuacion.ToString();
         if (LOG) LogCompleto();
     }
 
@@ -67,6 +70,9 @@ public class Nave : MonoBehaviour{
         kill++;
         combo++;
         puntuacion += 10 * combo;
+        comboT.text = combo.ToString();
+        scoreT.text = puntuacion.ToString();
+
     }
 
     /// <summary>
@@ -86,7 +92,8 @@ public class Nave : MonoBehaviour{
             salud -= c;
             saludT.text = salud.ToString();
         }
-
+        combo = 0;
+        comboT.text = combo.ToString();
         if (LOG) Debug.Log("Vida perdida: " + c);
     }
 
@@ -101,6 +108,7 @@ public class Nave : MonoBehaviour{
     /// </summary>
     /// <param name="collision">El PowerUp con el que hace colision</param>
     private void DetectaPowerUp(Collision collision) {
+        if (LOG) Debug.Log("Has obtenido un PowerUP");
         switch (Random.Range(0, 3)) {
             case 0:
                 BoostPuntos();
@@ -122,6 +130,7 @@ public class Nave : MonoBehaviour{
         int c = Random.Range(0, 10000);
         if (LOG) Debug.Log("Puntos obtenido: " + c);
         this.puntuacion += c;
+        scoreT.text = puntuacion.ToString();
     }
 
     /// <summary>
@@ -147,6 +156,7 @@ public class Nave : MonoBehaviour{
         int c = Random.Range(0, 25);
         if (LOG) Debug.Log("Combo aumentado: " + c);
         this.combo += c;
+        comboT.text = combo.ToString();
     }
 
     /// <summary>

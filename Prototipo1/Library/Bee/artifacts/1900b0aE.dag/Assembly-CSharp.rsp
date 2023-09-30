@@ -353,6 +353,7 @@
 "Assets/Scripts/BoostPuntos.cs"
 "Assets/Scripts/CarSound.cs"
 "Assets/Scripts/EliminaTrack.cs"
+"Assets/Scripts/Luz.cs"
 "Assets/Scripts/MueveTrack.cs"
 "Assets/Scripts/Nave.cs"
 "Assets/Scripts/Obstaculo.cs"

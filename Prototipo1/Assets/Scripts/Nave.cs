@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 /// <summary>
 /// Clase que modela una nave (jugador principal)
@@ -12,6 +13,7 @@ public class Nave : MonoBehaviour{
     private float hm;
     public AudioClip audio;
     public AudioSource audioS;
+    public TMP_Text tmp;
 
     public int kill;
     public int puntuacion;
@@ -26,6 +28,7 @@ public class Nave : MonoBehaviour{
         combo = 0;
         puntuacion = 0;
         salud = 100;
+        tmp.text = salud.ToString();
     }
 
     private void Update() {
@@ -74,8 +77,11 @@ public class Nave : MonoBehaviour{
         int c = Random.Range(1, 25);
         if(salud - c < 0) {
             salud = 0;
+            tmp.text = salud.ToString();
+            DestruyeCoche();
         } else {
             salud -= c;
+            tmp.text = salud.ToString();
         }
 
         if (LOG) Debug.Log("Vida perdida: " + c);
@@ -128,6 +134,7 @@ public class Nave : MonoBehaviour{
         } else {
             salud += c;
         }
+        tmp.text = salud.ToString();
     }
 
     /// <summary>
@@ -145,5 +152,9 @@ public class Nave : MonoBehaviour{
     private void LogCompleto() {
         Debug.Log("Kills : " + kill + "\nSalud : " + salud);
         Debug.Log("Combo : " + combo + "\nPuntuacion : " + puntuacion);      
+    }
+
+    private void DestruyeCoche() {
+        this.gameObject.SetActive(false);
     }
 }
